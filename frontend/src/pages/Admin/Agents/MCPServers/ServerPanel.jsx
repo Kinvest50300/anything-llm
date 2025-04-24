@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+<<<<<<< HEAD
 
 function toTitleCase(str) {
   return str.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
@@ -6,6 +7,12 @@ function toTitleCase(str) {
 import showToast from "@/utils/toast";
 import { CaretDown, Gear } from "@phosphor-icons/react";
 import MCPLogo from "@/media/agents/mcp-logo.svg";
+=======
+import showToast from "@/utils/toast";
+import { CaretDown, Gear } from "@phosphor-icons/react";
+import MCPLogo from "@/media/agents/mcp-logo.svg";
+import { titleCase } from "change-case";
+>>>>>>> 54791b810490c9713c44fe26d84961ee8dbfc03b
 import truncate from "truncate";
 import MCPServers from "@/models/mcpServers";
 import pluralize from "pluralize";

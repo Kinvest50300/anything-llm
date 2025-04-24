@@ -1,4 +1,5 @@
 import System from "@/models/system";
+<<<<<<< HEAD
 
 function sentenceCase(str) {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
@@ -6,6 +7,12 @@ function sentenceCase(str) {
 import showToast from "@/utils/toast";
 import { Gear, Plug } from "@phosphor-icons/react";
 import { useEffect, useState, useRef } from "react";
+=======
+import showToast from "@/utils/toast";
+import { Gear, Plug } from "@phosphor-icons/react";
+import { useEffect, useState, useRef } from "react";
+import { sentenceCase } from "change-case";
+>>>>>>> 54791b810490c9713c44fe26d84961ee8dbfc03b
 
 /**
  * Converts setup_args to inputs for the form builder

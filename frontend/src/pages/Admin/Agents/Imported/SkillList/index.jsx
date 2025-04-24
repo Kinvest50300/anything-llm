@@ -1,8 +1,12 @@
 import { CaretRight } from "@phosphor-icons/react";
+<<<<<<< HEAD
 
 function sentenceCase(str) {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
+=======
+import { sentenceCase } from "change-case";
+>>>>>>> 54791b810490c9713c44fe26d84961ee8dbfc03b
 
 export default function ImportedSkillList({
   skills = [],

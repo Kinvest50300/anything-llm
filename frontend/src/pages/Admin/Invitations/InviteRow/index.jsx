@@ -1,8 +1,12 @@
 import { useEffect, useRef, useState } from "react";
+<<<<<<< HEAD
 
 function toTitleCase(str) {
   return str.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
 }
+=======
+import { titleCase } from "change-case";
+>>>>>>> 54791b810490c9713c44fe26d84961ee8dbfc03b
 import Admin from "@/models/admin";
 import { Trash } from "@phosphor-icons/react";
 
