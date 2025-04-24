@@ -1,14 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-<<<<<<< HEAD
-
-function toTitleCase(str) {
-  return str.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
-}
-import PiperTTSClient from "@/utils/piperTTS";
-=======
-import PiperTTSClient from "@/utils/piperTTS";
-import { titleCase } from "change-case";
->>>>>>> 54791b810490c9713c44fe26d84961ee8dbfc03b
 import { humanFileSize } from "@/utils/numbers";
 import showToast from "@/utils/toast";
 import { CircleNotch, PauseCircle, PlayCircle } from "@phosphor-icons/react";

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-import { titleCase } from "change-case";
->>>>>>> 54791b810490c9713c44fe26d84961ee8dbfc03b
 
 export default function WorkspaceMemberRow({ user }) {
   return (
