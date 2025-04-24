@@ -76,7 +76,11 @@ export default defineConfig({
     }
   },
   optimizeDeps: {
+<<<<<<< HEAD
     include: ["i18next", "regenerator-runtime", "@mintplex-labs/piper-tts-web"],
+=======
+    include: ["@mintplex-labs/piper-tts-web"],
+>>>>>>> e9b87bde796c1f3a6fd07a73e3bf5bba8f7b0db0
     esbuildOptions: {
       define: {
         global: "globalThis"
