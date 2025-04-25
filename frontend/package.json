@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build && node scripts/postbuild.js",
     "preview": "vite preview",
-    "start": "serve -s dist -l $PORT"
+    "start": "npx serve -s dist -l $PORT"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
